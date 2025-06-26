@@ -1,27 +1,70 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Strengthening Pathways Consulting, LLC</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Welcome - Strengthening Pathways</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #fefefe;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        .video {
+            flex: 1 1 30%;
+            min-width: 300px;
+            padding: 10px;
+        }
+        .welcome-text {
+            flex: 1 1 30%;
+            padding: 10px;
+            text-align: center;
+        }
+        .welcome-text h1 {
+            font-size: 1.8em;
+            color: #4a2d73;
+        }
+        .welcome-text p {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #333;
+        }
+        iframe {
+            width: 100%;
+            height: 250px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <img src="branding-header-final-fixed (1).png" alt="Strengthening Pathways Logo" />
-        <h1>Strengthening Pathways Consulting, LLC</h1>
-        <h2 class="tagline">We pave pathways with purpose, power, and peace</h2>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
-            <a href="intake.html">Intake</a>
-        </nav>
-    </header>
-    <main>
-        <h3>Welcome to Strengthening Pathways Consulting, LLC</h3>
-        <p>You weren’t led here by accident.</p>
-        <p>At Strengthening Pathways, we believe your purpose is powerful — and it deserves structure, strategy, and soul.</p>
-    </main>
+    <div class="container">
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/Y1zs0uHHoSw" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="welcome-text">
+            <h1>Welcome to Strengthening Pathways</h1>
+            <p>You weren’t led here by accident.</p>
+            <p>At Strengthening Pathways, we believe your purpose is powerful — and it deserves structure, support, and soul. Whether you’re starting a business, reviving a dream, or simply trying to get organized, we walk beside you with faith, clarity, and divine intention.</p>
+            <p>This isn’t just business — it’s alignment. It’s professional guidance with a spiritual heartbeat. It’s real help for real people walking toward real goals.</p>
+            <p>Here, your vision is honored. Your story matters. And your next step starts now.</p>
+            <p><strong>We pave pathways with purpose, power, and peace.</strong></p>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/1iR4A9sB6vU" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
 </body>
 </html>
