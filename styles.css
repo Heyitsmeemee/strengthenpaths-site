@@ -1,20 +1,26 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    padding: 20px;
     margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
 }
 header {
-    text-align: center;
-    padding-bottom: 20px;
+    background-color: #f8f8f8;
+    padding: 1em 0;
+    border-bottom: 2px solid #eee;
 }
-h1 {
-    color: #4a2d73;
+.tagline {
+    color: orange;
+    margin: 0.2em 0 1em 0;
 }
-section {
-    max-width: 600px;
-    margin: auto;
-    line-height: 1.6;
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+main.welcome {
+    padding: 2em;
 }
