@@ -1,25 +1,42 @@
 
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #fff8f0;
-  color: #333;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfdfd;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
 }
-nav {
-  background-color: #ffa366;
-  padding: 10px;
-  text-align: center;
+
+header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f5f9ff;
 }
-nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
+
+.logo {
+    max-width: 90%;
+    height: auto;
+    border-radius: 1rem;
 }
+
 main {
-  padding: 20px;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
-h1 {
-  color: #d35400;
+
+.welcome h1 {
+    font-size: 2rem;
+    color: #2a2a2a;
+}
+
+.welcome p {
+    margin-bottom: 1rem;
+}
+
+.mission {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #cc6600;
 }
