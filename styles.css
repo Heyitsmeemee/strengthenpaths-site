@@ -57,3 +57,11 @@ form input, form textarea, form button {
 .about-text {
     font-family: Georgia, serif;
 }
+
+.welcome-text {
+    text-align: right;
+    line-height: 2;
+    color: #025f9b; /* vibrant blue */
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
