@@ -65,3 +65,12 @@ form input, form textarea, form button {
     font-family: Georgia, serif;
     font-weight: bold;
 }
+
+.welcome-text {
+    text-align: center;
+    line-height: 1.5;
+    color: #025f9b; /* vibrant blue */
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
