@@ -53,3 +53,7 @@ form input, form textarea, form button {
     color: #025f9b; /* vibrant blue */
     font-weight: bold;
 }
+
+.about-text {
+    font-family: Georgia, serif;
+}
