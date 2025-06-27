@@ -1,48 +1,6 @@
-
-body {
-  font-family: sans-serif;
-  margin: 0;
-  background: #fff;
-  color: #111;
-}
-.hero {
-  background: url('branding-header-final-fixed.png') center/cover no-repeat;
-  height: 50vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-.overlay {
-  background: rgba(255, 165, 0, 0.5); /* soft orange */
-  padding: 20px;
-  text-align: center;
-}
-h1 {
-  color: #004080; /* business blue */
-  font-size: 2em;
-}
-.tagline {
-  font-style: italic;
-  color: #004080;
-}
-nav ul {
-  display: flex;
-  justify-content: center;
-  background: orange;
-  list-style: none;
-  padding: 10px;
-}
-nav li {
-  margin: 0 15px;
-}
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-footer {
-  text-align: center;
-  margin-top: 20px;
-  padding: 10px;
-}
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: white; color: #333; }
+header { text-align: center; padding: 20px; background: #FFD580; }
+nav ul { list-style: none; display: flex; justify-content: center; padding: 0; background: #FFA500; }
+nav ul li { margin: 0 15px; }
+nav ul li a { text-decoration: none; font-weight: bold; color: white; }
+footer { text-align: center; margin-top: 20px; padding: 10px; font-size: small; }
