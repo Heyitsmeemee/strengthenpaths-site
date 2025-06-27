@@ -101,3 +101,26 @@ form input, form textarea, form button {
     font-weight: bold;
     font-size: 26px;
 }
+
+.payment-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.payment-text {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: #cc5500;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.payment-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
