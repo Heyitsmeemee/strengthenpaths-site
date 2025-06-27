@@ -3,21 +3,28 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: rgba(255, 240, 230, 0.95);
     color: #333;
 }
 header {
-    background-color: #024873;
-    color: white;
-    padding: 20px;
+    background: url('logo-watermark.png') no-repeat center center;
+    background-size: contain;
+    background-color: rgba(255, 153, 51, 0.2); /* Soft orange overlay */
+    color: #024873; /* Business blue */
+    padding: 30px;
     text-align: center;
+}
+.business-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #024873;
 }
 .tagline {
     font-style: italic;
     font-weight: bold;
 }
 nav ul {
-    background-color: #055a8c;
+    background-color: #ff6a00; /* Vibrant orange */
     padding: 10px;
     list-style-type: none;
     display: flex;
@@ -26,6 +33,7 @@ nav ul {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 main {
     padding: 20px;
@@ -33,4 +41,8 @@ main {
 form input, form textarea, form button {
     width: 100%;
     margin-bottom: 10px;
+}
+.welcome-message {
+    font-size: 16px;
+    line-height: 1.6;
 }
