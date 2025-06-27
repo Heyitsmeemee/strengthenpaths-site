@@ -92,3 +92,12 @@ form input, form textarea, form button {
     font-weight: bold;
     font-size: 28px;
 }
+
+.services-text {
+    text-align: right;
+    line-height: 1.75;
+    color: #cc5500; /* darker vibrant orange */
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 26px;
+}
