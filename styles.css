@@ -83,3 +83,12 @@ form input, form textarea, form button {
     font-weight: bold;
     font-size: 35px;
 }
+
+.welcome-text {
+    text-align: center;
+    line-height: 2;
+    color: #cc5500; /* darker vibrant orange */
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 28px;
+}
