@@ -74,3 +74,12 @@ form input, form textarea, form button {
     font-weight: bold;
     font-size: 20px;
 }
+
+.welcome-text {
+    text-align: center;
+    line-height: 1.75;
+    color: #ff6a00; /* vibrant orange */
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 35px;
+}
