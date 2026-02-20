@@ -5,98 +5,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome - Strengthening Pathways Consulting, LLC</title>
     <style>
+        /* ===================== GLOBAL STYLES ===================== */
         body {
             font-family: Georgia, serif;
-            background-color: #fff0f0;
-            margin: 40px;
+            margin: 0;
+            padding: 0;
             color: #003366;
             text-align: center;
-            line-height: 2;
-            font-size: 28px;
+            line-height: 1.8;
+            background-color: #fff0f0;
         }
-        .highlight-orange {
-            color: #ff6600;
+
+        a {
+            text-decoration: none;
         }
-        .highlight-blue {
-            color: #0033cc;
-        }
+
         h1, h2 {
             font-weight: bold;
+            margin: 0;
+        }
+
+        /* ===================== NAVIGATION ===================== */
+        #nav {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+
+        #nav a {
+            margin: 0 15px;
+            color: #ff6600;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        /* ===================== HERO SECTION ===================== */
+        #hero-section {
+            width: 100%;
+            min-height: 100vh; /* full viewport height */
+            background: linear-gradient(to right, #3A78F7, #FFA43B);
+            padding: 80px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            box-sizing: border-box;
+        }
+
+        #hero-text {
+            max-width: 700px;
+            text-align: left;
+        }
+
+        #hero-text h1 {
+            font-family: Georgia, serif;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 70px;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        #hero-text h2 {
+            font-style: italic;
+            font-size: 32px;
+            color: white;
+        }
+
+        #hero-image img {
+            width: 300px;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+
+        /* ===================== WELCOME / INTRO ===================== */
+        #welcome-section {
+            background-color: #A0E7E5;
+            padding: 50px 20px;
+            border-radius: 15px;
+            margin: 30px auto;
+            max-width: 900px;
+        }
+
+        #welcome-section h2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        #welcome-section p {
+            font-size: 22px;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        #welcome-section a {
+            background-color: #FF7EB3;
+            color: white;
+            padding: 14px 28px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        /* ===================== RESPONSIVE ===================== */
+        @media screen and (max-width: 768px) {
+            #hero-section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            #hero-text {
+                text-align: center;
+            }
+
+            #hero-image img {
+                width: 250px;
+                margin-top: 20px;
+            }
         }
     </style>
 </head>
 <body>
-    <div style="text-align: center; padding: 20px;">
-        <a href="index.html" style="margin: 0 15px; color: #ff6600; font-weight: bold;">Home</a>
-        <a href="about.html" style="margin: 0 15px; color: #ff6600; font-weight: bold;">About</a>
-        <a href="services.html" style="margin: 0 15px; color: #ff6600; font-weight: bold;">Services</a>
-        <a href="intake.html" style="margin: 0 15px; color: #ff6600; font-weight: bold;">Intake</a>
+
+    <!-- ===================== NAVIGATION ===================== -->
+    <div id="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="intake.html">Intake</a>
     </div>
 
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome - Strengthening Pathways Consulting, LLC</title>
-    <style>
-        body {
-            font-family: Georgia, serif;
-            background-color: #fff0f0;
-            margin: 40px;
-            color: #003366;
-            text-align: center;
-            line-height: 2;
-            font-size: 28px;
-        }
-        .highlight-orange {
-            color: #ff6600;
-        }
-        .highlight-blue {
-            color: #0033cc;
-        }
-        h1, h2 {
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-    <div style="text-align: center; padding: 20px;">
-        <a href="index.html" style="margin: 0 15px; color: #ff6600; font-weight: bold;">Home</a>
-        <a href="about.html" style="margin: 0 15px; color: #ff6600; font-weight: bold;">About</a>
-        <a href="services.html" style="margin: 0 15px; color: #ff6600; font-weight: bold;">Services</a>
-        <a href="intake.html" style="margin: 0 15px; color: #ff6600; font-weight: bold;">Intake</a>
-    </div>
-
-    <!-- Hero Section -->
-    <div style="background: linear-gradient(to right, #3A78F7, #FFA43B); padding: 50px; border-radius: 15px; display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
-        <div>
-            <h1 style="font-family: Georgia, serif; font-weight:bold; font-style:italic; font-size: 60px; color: white; margin: 0;">
-                Strengthening Pathways Consulting, LLC
-            </h1>
-            <h2 style="font-style:italic; font-size:28px; color:white; margin:10px 0 0 0;">
-                We pave pathways with purpose, power, and peace.
-            </h2>
+    <!-- ===================== HERO SECTION START ===================== -->
+    <div id="hero-section">
+        <!-- Hero Text -->
+        <div id="hero-text">
+            <h1>Strengthening Pathways Consulting, LLC</h1>
+            <h2>We pave pathways with purpose, power, and peace.</h2>
         </div>
-        
-        <img src="images/mee-mee-headshot.jpg" alt="Mee Mee" style="width:250px; border-radius:15px; margin-left: 30px;">
+
+        <!-- Hero Image -->
+        <div id="hero-image">
+            <img src="images/mee-mee-headshot.jpg" alt="Mee Mee">
+        </div>
     </div>
-</body>
-</html>
-        <!-- Welcome / Intro Section -->
-<section style="background-color:#A0E7E5; padding:40px; border-radius:15px; margin-top:30px;">
-    <h2 style="font-weight:bold; font-size:36px; margin-bottom:20px;">Welcome!</h2>
-    <p style="font-size:22px; line-height:1.8;">
-        Welcome! I’m Mee Mee, founder of SPC. I’ve spent over 20 years walking with people through life transitions—helping them build businesses, birth visions, and break generational cycles.
-    </p>
-    <p style="font-size:22px; line-height:1.8;">
-        Let’s walk the path together—on purpose.
-    </p>
-    <a href="about.html" style="background-color:#FF7EB3; color:white; padding:12px 24px; border-radius:10px; text-decoration:none; font-weight:bold; font-size:20px;">
-        Learn More About Me
-    </a>
-</section>
-        <img src="images/mee-mee-headshot.jpg" alt="Mee Mee" style="width:250px; border-radius:15px; margin-left: 30px;">
-    </div>
+    <!-- ===================== HERO SECTION END ===================== -->
+
+    <!-- ===================== WELCOME / INTRO SECTION ===================== -->
+    <section id="welcome-section">
+        <h2>Welcome!</h2>
+        <p>Welcome! I’m Mee Mee, founder of SPC. I’ve spent over 20 years walking with people through life transitions—helping them build businesses, birth visions, and break generational cycles.</p>
+        <p>Let’s walk the path together—on purpose.</p>
+        <a href="about.html">Learn More About Me</a>
+    </section>
+
 </body>
 </html>
